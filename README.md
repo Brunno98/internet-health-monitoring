@@ -5,3 +5,7 @@ Basta executar o comando `docker compose up -d` e depois acessar o grafana em `l
 Ao logar pela primeira vez, entre com as credencias usernam: admin e password: admin.
 
 Será solicitado para criar uma nova senha, depois disso você terá acesso ao grafana.
+
+## Grafana
+
+As configurações do datasource do prometheus e o dashboard do blackbox exporter estão armazendas na pasta (grafana/)[grafana/]
