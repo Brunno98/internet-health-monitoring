@@ -8,4 +8,6 @@ Será solicitado para criar uma nova senha, depois disso você terá acesso ao g
 
 ## Grafana
 
-As configurações do datasource do prometheus e o dashboard do blackbox exporter estão armazendas na pasta (grafana/)[grafana/]
+As configurações do datasource do prometheus e o dashboard do blackbox exporter estão armazendas na pasta [grafana/](grafana/)
+
+Quando o docker-compose subir o conteiner do grafana, esses arquivos de configuração irão para a pasta `/etc/grafana/provisioning` do container e o grafana irá carregar o datasource do prometheus e dashboard do blackbox automaticamente.
